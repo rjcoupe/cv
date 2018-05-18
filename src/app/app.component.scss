@@ -46,6 +46,17 @@
 
     .main {
         grid-area: main;
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            text-transform: uppercase;
+            border-bottom: 2px solid $accent;
+        }
+
+        p {
+            font-family: 'Open Sans', sans-serif;
+        }
     }
 
     .side {
