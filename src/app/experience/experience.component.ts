@@ -27,7 +27,8 @@ export class ExperienceComponent implements OnInit {
       dateTo: 'September 2017',
       bullets: [
         "Scrum Mastered multiple teams across multiple products as needed by the business to ensure a predictable and consistent velocity and throughput of the teams in question",
-        "Served as a line manager and technical lead as an extra facet to the role, taking on a mandate to effectively develop and enable the team members so as to help them realise their full potentials",
+        "Served as a line manager as an extra facet to the role, taking on a mandate to effectively develop and enable the team members so as to help them realise their full potentials both individually and as a team",
+        "Tracked and used various metrics including lead and cycle times to discover and realise potential reductions in waste",
         "Served as a technical lead with responsibility for the technical implementations undertaken for the overall products"
       ]
     },
