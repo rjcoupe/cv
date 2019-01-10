@@ -8,6 +8,28 @@ import { Component, OnInit } from '@angular/core';
 export class ExperienceComponent implements OnInit {
   jobs: any[] = [
     {
+      title: 'Associate Agile Coach',
+      employer: 'DevOpsGroup',
+      location: 'Cardiff',
+      dateFrom: 'January 2019',
+      dateTo: 'Present',
+      bullets: [
+        
+      ]
+    },
+    {
+      title: 'Senior Scrum Master',
+      employer: 'DevOpsGroup',
+      location: 'Cardiff',
+      dateFrom: 'July 2018',
+      dateTo: 'December 2018',
+      bullets: [
+        'Scrum Master for a team operating within a £billion client organisation',
+        'Facilitated effective workflow enabling engineering team to make substantial improvements to prior infrastructure',
+        'Ensured effective lines of communication between engineers and stakeholders'
+      ]
+    },
+    {
       title: 'Product Owner',
       employer: 'Sorenson Media',
       location: 'Cardiff',
