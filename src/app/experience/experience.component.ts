@@ -35,7 +35,7 @@ export class ExperienceComponent implements OnInit {
       employer: 'Sorenson Media',
       location: 'Cardiff',
       dateFrom: 'September 2017',
-      dateTo: 'Present',
+      dateTo: 'July 2018',
       bullets: [
         "One of a two-person product owning team for Sorenson's flagship Ad Suite product, a television advert-enhancing service with partners including Samsung, Discovery, ESPN and the Sinclair Group",
         "Sole product owner of the Broadcast Data API, a business critical internal product serving several customer-facing platforms",
