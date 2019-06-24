@@ -7,11 +7,12 @@ h2 {
 }
 
 .job-details {
-    &:not(:first-of-type) {
-        border-top: 1px dashed #ccc;
-    }
     h4 {
         color: $accent;
+        &:not(.most-recent-employer) {
+            border-top: 1px solid $accent;
+            padding-top: 10px;
+        }
     }
     h3, h4, h5 {
         font-family: 'Montserrat', sans-serif;

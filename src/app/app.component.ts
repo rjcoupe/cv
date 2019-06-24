@@ -9,7 +9,7 @@ export class AppComponent {
   sourcesOfPride: any[] = [
     {
       icon: 'fas fa-rocket',
-      title: "Ad Suite's Growth",
+      title: "Sorenson Media Ad Suite's Growth",
       text: 'from a team of under 10 developers to a multi-team, LeSS-employing framework of nearly 30 engineers'
     },
     {
@@ -28,15 +28,12 @@ export class AppComponent {
     'Adaptable', 'Personable', 'Ambitious', 'Big Picture-focused', 'Quality-driven', 'Puzzle solver', 'Approachable', 'Logical', 'Process and Systems Thinking'
   ];
 
-  technologies: string[] = [
-    '*nix OSs',
-    'Shell Scripting',
-    'Javascript',
-    'NoSQL',
-    '(SQL) RDBMS',
-    'Amazon Web Services (AWS)',
-    'JIRA',
-    'Bamboo CI',
-
+  certs: string[] = [
+    'AWS Solutions Architect (Associate)',
+    'AWS Cloud Practitioner',
+    'Certified Scrum Master (Scrum Alliance)',
+    'Certified Product Owner (Scrum Alliance)',
+    'BCS Agile Foundation',
+    'BCS DevOps 101'
   ]
 }

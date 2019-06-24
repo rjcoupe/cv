@@ -14,7 +14,8 @@ export class ExperienceComponent implements OnInit {
       dateFrom: 'January 2019',
       dateTo: 'Present',
       bullets: [
-        
+        'Taking on a wider range of clients, worked primarily within the scale-up sector to bring client teams up to date in their ways of working',
+        'Improved a client team\'s practice sufficiently to prompt the CIO to comment to the effect that the most recently released version was 6 months ahead of expectations due to the engagement'
       ]
     },
     {
@@ -24,7 +25,7 @@ export class ExperienceComponent implements OnInit {
       dateFrom: 'July 2018',
       dateTo: 'December 2018',
       bullets: [
-        'Scrum Master for a team operating within a £billion client organisation',
+        'Scrum Master for a team operating within a FTSE 350 client organisation',
         'Facilitated effective workflow enabling engineering team to make substantial improvements to prior infrastructure',
         'Ensured effective lines of communication between engineers and stakeholders'
       ]

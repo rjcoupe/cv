@@ -1,7 +1,7 @@
 <h2>Experience</h2>
-<div class="job-details" *ngFor="let job of jobs">
+<div class="job-details" *ngFor="let job of jobs; let i = index" [class.first-for-employer]="i !== 0 && jobs[i-1].employer !== job.employer">
+  <h4 *ngIf="i === 0 || jobs[i-1].employer !== job.employer" [class.most-recent-employer]="i === 0">{{job.employer}}</h4>
   <h3>{{job.title}}</h3>
-  <h4>{{job.employer}}</h4>
   <h5>{{job.dateFrom}} - {{job.dateTo}}</h5>
   <ul>
     <li *ngFor="let bullet of job.bullets">{{bullet}}</li>
