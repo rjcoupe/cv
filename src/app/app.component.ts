@@ -8,6 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   sourcesOfPride: any[] = [
     {
+      icon: 'fas fa-graduation-cap',
+      title: "AWS Certifications",
+      text: "progressing from no experience to Cloud Practitioner, Solutions Architect Associate and DevOps Engineer Professional within 5 months"
+    },
+    {
       icon: 'fas fa-rocket',
       title: "Sorenson Media Ad Suite's Growth",
       text: 'from a team of under 10 developers to a multi-team, LeSS-employing framework of nearly 30 engineers'
