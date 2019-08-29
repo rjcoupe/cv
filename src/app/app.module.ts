@@ -5,12 +5,14 @@ import { ChartsModule } from 'ng2-charts';
 import { AppComponent } from './app.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { DayComponent } from './day/day.component';
+import { CertificationsComponent } from './certifications/certifications.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ExperienceComponent,
-    DayComponent
+    DayComponent,
+    CertificationsComponent
   ],
   imports: [
     BrowserModule,

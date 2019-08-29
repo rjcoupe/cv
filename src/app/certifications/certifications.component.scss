@@ -1,0 +1,10 @@
+.certifications {
+    display: flex;
+    justify-content: flex-start;
+
+    .cert {
+        img {
+            width: 75px;
+        }
+    }
+}

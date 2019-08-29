@@ -8,7 +8,6 @@
         'header header'
         'main side';
     grid-template-columns: auto 30%;
-    grid-template-rows: 20vh auto;
     header {
         grid-area: header;
         position: relative;
