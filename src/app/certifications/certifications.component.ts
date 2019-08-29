@@ -13,11 +13,11 @@ export class CertificationsComponent implements OnInit {
     this.certs = [
       {
         title: 'AWS DevOps Engineer Pro',
-        badge: '/assets/badges/AWS_DOE.png'
+        badge: 'assets/badges/AWS_DOE.png'
       },
       {
         title: 'AWS Solutions Architect Associate',
-        badge: '/assets/badges/AWS_SAA.png'
+        badge: 'assets/badges/AWS_SAA.png'
       }
     ]
   }
