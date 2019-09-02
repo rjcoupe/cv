@@ -13,14 +13,9 @@ export class AppComponent {
       text: "progressing from no experience to Cloud Practitioner, Solutions Architect Associate and DevOps Engineer Professional within 5 months"
     },
     {
-      icon: 'fas fa-rocket',
-      title: "Sorenson Media Ad Suite's Growth",
-      text: 'from a team of under 10 developers to a multi-team, LeSS-employing framework of nearly 30 engineers'
-    },
-    {
       icon: 'fas fa-dice',
       title: "Varied Experiences",
-      text: "through my variety of Scrum roles at Sorenson Media; I have seen the world through the eyes of a Developer, Scrum Master and Product Owner to realise a thoroughly diverse view of a business's end goals."
+      text: "through my variety of agile roles, I have seen the world through the eyes of a Developer/Engineer, Scrum Master, Product Owner and Agile Coach to realise a thoroughly diverse view of a business's end goals."
     },
     {
       icon: 'fas fa-angle-double-up',
