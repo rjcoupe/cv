@@ -10,7 +10,7 @@ export class AppComponent {
     {
       icon: 'fas fa-graduation-cap',
       title: "AWS Certifications",
-      text: "progressing from no experience to Cloud Practitioner, Solutions Architect Associate and DevOps Engineer Professional within 5 months"
+      text: "progressing from no certifications to Cloud Practitioner, Solutions Architect Associate and DevOps Engineer Professional within 5 months"
     },
     {
       icon: 'fas fa-dice',
