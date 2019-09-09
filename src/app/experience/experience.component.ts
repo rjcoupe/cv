@@ -12,7 +12,8 @@ export class ExperienceComponent implements OnInit {
       employer: 'DevOpsGroup',
       location: 'Cardiff',
       dateFrom: 'September 2019',
-      dateTo: 'Present'
+      dateTo: 'Present',
+      bullets: []
     },
     {
       title: 'Associate Agile Coach',
