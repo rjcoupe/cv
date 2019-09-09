@@ -18,6 +18,18 @@ export class CertificationsComponent implements OnInit {
       {
         title: 'AWS Solutions Architect (Associate)',
         badge: 'assets/badges/AWS_SAA.png'
+      },
+      {
+        title: 'AWS Cloud Practitioner',
+        badge: 'assets/badges/AWS_CP.png'
+      },
+      {
+        title: 'Scrum Alliance Certified Scrum Master',
+        badge: 'assets/badges/SA_CSM.png'
+      },
+      {
+        title: 'Scrum Alliance Certified Product Owner',
+        badge: 'assets/badges/SA_CSPO.png'
       }
     ]
   }
