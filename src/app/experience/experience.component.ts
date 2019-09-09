@@ -23,7 +23,8 @@ export class ExperienceComponent implements OnInit {
       dateTo: 'September 2019',
       bullets: [
         'Taking on a wider range of clients, worked primarily within the scale-up sector to bring client teams up to date in their ways of working',
-        'Improved a client team\'s practice sufficiently to prompt the CIO to comment to the effect that the most recently released version was 6 months ahead of expectations due to the engagement'
+        'Improved a client team\'s practice sufficiently to prompt the CIO to comment to the effect that the most recently released version was 6 months ahead of expectations due to the engagement',
+        'Worked with two teams at the nascent stage of an enterprise transformation, coaching them from project to product team architecture'
       ]
     },
     {
