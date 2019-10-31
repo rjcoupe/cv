@@ -12,6 +12,10 @@ export class CertificationsComponent implements OnInit {
   ngOnInit() {
     this.certs = [
       {
+        title: 'AWS Solutions Architect (Professional)',
+        badge: 'assets/badges/AWS_SAP.png'
+      },
+      {
         title: 'AWS DevOps Engineer (Professional)',
         badge: 'assets/badges/AWS_DOE.png'
       },
