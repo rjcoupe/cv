@@ -8,12 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class ExperienceComponent implements OnInit {
   jobs: any[] = [
     {
-      title: 'Cloud Engineer',
+      title: 'Cloud Consultant',
       employer: 'DevOpsGroup',
       location: 'Cardiff',
       dateFrom: 'September 2019',
       dateTo: 'Present',
-      bullets: []
+      bullets: [
+        'Responsible, as a qualified AWS Well-Architected Lead, for leading Well-Architected Reviews for clients in order to determine where best to focus efforts on improvement to their cloud estate',
+        'Designed and proposed solutions for clients requiring an enchancement or original creation of cloud strategy'
+      ]
     },
     {
       title: 'Associate Agile Coach',

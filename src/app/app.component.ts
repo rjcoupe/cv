@@ -29,6 +29,7 @@ export class AppComponent {
   ];
 
   certs: string[] = [
+    'AWS Solutions Architect (Professional)',
     'AWS DevOps Engineer (Professional)',
     'AWS Solutions Architect (Associate)',
     'AWS Cloud Practitioner',
