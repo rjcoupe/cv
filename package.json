@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href \"https://rjcoupe.github.io/cv/\" && git add . && git commit -am \"Built from commit $(git rev-parse --short HEAD)\"",
+    "build": "ng build --prod --base-href \"https://rjcoupe.dev/\" && git add . && git commit -am \"Built from commit $(git rev-parse --short HEAD)\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
