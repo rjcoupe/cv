@@ -10,7 +10,7 @@ export class AppComponent {
     {
       icon: 'fas fa-graduation-cap',
       title: "AWS Certifications",
-      text: "progressing from no certifications to Cloud Practitioner, Solutions Architect Associate and DevOps Engineer Professional within 5 months"
+      text: "progressing from no certifications to Cloud Practitioner, Solutions Architect Associate, Solutions Architect Professional DevOps Engineer Professional and Security Specialty within a year"
     },
     {
       icon: 'fas fa-dice',
@@ -25,12 +25,21 @@ export class AppComponent {
   ];
 
   strengths: string[] = [
-    'Adaptable', 'Personable', 'Ambitious', 'Big Picture-focused', 'Quality-driven', 'Puzzle solver', 'Approachable', 'Logical', 'Process and Systems Thinking'
+    'Adaptable',
+    'Personable',
+    'Ambitious',
+    'Big Picture-focused',
+    'Value-driven',
+    'Puzzle solver',
+    'Approachable',
+    'Logical',
+    'Process and Systems Thinking'
   ];
 
   certs: string[] = [
     'AWS Solutions Architect (Professional)',
     'AWS DevOps Engineer (Professional)',
+    'AWS Security Specialty',
     'AWS Solutions Architect (Associate)',
     'AWS Cloud Practitioner',
     'Certified Scrum Master (Scrum Alliance)',

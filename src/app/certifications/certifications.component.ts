@@ -12,6 +12,14 @@ export class CertificationsComponent implements OnInit {
   ngOnInit() {
     this.certs = [
       {
+        title: 'AWS Cloud Practitioner',
+        badge: 'assets/badges/AWS_CP.png'
+      },
+      {
+        title: 'AWS Solutions Architect (Associate)',
+        badge: 'assets/badges/AWS_SAA.png'
+      },
+      {
         title: 'AWS Solutions Architect (Professional)',
         badge: 'assets/badges/AWS_SAP.png'
       },
@@ -20,12 +28,8 @@ export class CertificationsComponent implements OnInit {
         badge: 'assets/badges/AWS_DOE.png'
       },
       {
-        title: 'AWS Solutions Architect (Associate)',
-        badge: 'assets/badges/AWS_SAA.png'
-      },
-      {
-        title: 'AWS Cloud Practitioner',
-        badge: 'assets/badges/AWS_CP.png'
+        title: 'AWS Security Specialty',
+        badge: 'assets/badges/AWS_SCS.png'
       },
       {
         title: 'Scrum Alliance Certified Scrum Master',
