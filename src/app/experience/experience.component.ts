@@ -16,6 +16,10 @@ export class ExperienceComponent implements OnInit {
       bullets: [
         'Responsible, as a qualified AWS Well-Architected Lead, for leading Well-Architected Reviews for clients in order to determine where best to focus efforts on improvement to their cloud estate',
         'Designed and proposed solutions for clients requiring an enchancement or original creation of cloud strategy'
+      ],
+      technologies: [
+        'Amazon Web Services (AWS) - a very broad range of the technologies and products therein',
+        'A wide array of technologies used by clients as part of the solution design and implementation processes'
       ]
     },
     {
@@ -27,7 +31,8 @@ export class ExperienceComponent implements OnInit {
       bullets: [
         'Taking on a wider range of clients, worked primarily within the scale-up sector to bring client teams up to date in their ways of working',
         'Improved a client team\'s practice sufficiently to prompt the CIO to comment to the effect that the most recently released version was 6 months ahead of expectations due to the engagement',
-        'Worked with two teams at the nascent stage of an enterprise transformation, coaching them from project to product team architecture'
+        'Worked with two teams at the nascent stage of an enterprise transformation, coaching them from project to product team architecture',
+        'Pulled double duty as an Academy Coach, line-managing our undergraduate interns to help facilitate their growth and development'
       ]
     },
     {
@@ -77,6 +82,27 @@ export class ExperienceComponent implements OnInit {
         "Contributed to an ethos of quality and dependability of code, prioritising a test-mandating approach to ensure a long term vision",
         "Recognised as a high-profile, hard working member of the team by peers and leadership",
         "On multiple occasions, stepped into traditional Scrum Master roles by leading stand-ups, retrospectives and planning sessions"
+      ],
+      technologies: [
+        'NodeJS',
+        'MongoDB',
+        'React'
+      ]
+    },
+    {
+      title: 'Web Developer',
+      employer: 'Imaginet',
+      location: 'Cardiff',
+      dateFrom: 'February 2014',
+      dateTo: 'May 2015',
+      bullets: [
+        "Worked with an array of clients including national enterprises such as NCP and Natural Balance Foods, creating and maintaining their commercial websites",
+        "Implemented back-end solutions integrating technologies such as Atos WorldPay",
+        "Designated as the Primary E-Commerce Developer within the company shortly after starting"
+      ],
+      technologies: [
+        'PHP',
+        'MySQL'
       ]
     }
   ]

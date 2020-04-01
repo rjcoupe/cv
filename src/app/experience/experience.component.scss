@@ -7,6 +7,9 @@ h2 {
 }
 
 .job-details {
+    &:not(.last-for-employer) {
+        border-bottom: 1px dashed grey;
+    }
     h4 {
         color: $accent;
         &:not(.most-recent-employer) {
@@ -27,5 +30,9 @@ h2 {
         li {
             font-family: 'Open Sans', sans-serif;
         }
+    }
+    h5.techstack {
+        color: $accent;
+        font-size: 100%;
     }
 }
