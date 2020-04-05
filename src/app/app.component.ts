@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  email: string = 'rjcoupe@gmail.com'
+  email: string = 'rich@rjcoupe.dev';
+  phoneNumber: string = '+44 (0) 7460700782'
   sourcesOfPride: any[] = [
     {
       icon: 'fas fa-graduation-cap',
