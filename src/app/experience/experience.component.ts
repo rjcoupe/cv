@@ -14,7 +14,7 @@ export class ExperienceComponent implements OnInit {
       dateFrom: 'September 2019',
       dateTo: 'Present',
       bullets: [
-        'Responsible, as a qualified AWS Well-Architected Lead, for leading Well-Architected Reviews for clients in order to determine where best to focus efforts on improvement to their cloud estate',
+        'Responsible, as a qualified AWS Well-Architected Lead, for leading Well-Architected Reviews for over 20 distinct clients in order to determine where best to focus efforts on improvement to their cloud estate',
         'Designed and proposed solutions for clients requiring an enchancement or original creation of cloud strategy'
       ],
       technologies: [
