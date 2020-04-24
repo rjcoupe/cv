@@ -20,6 +20,10 @@ export class CertificationsComponent implements OnInit {
         badge: 'assets/badges/AWS_SAA.png'
       },
       {
+        title: 'AWS Developer (Associate)',
+        badge: 'assets/badges/AWS_DVA.png'
+      },
+      {
         title: 'AWS Solutions Architect (Professional)',
         badge: 'assets/badges/AWS_SAP.png'
       },
