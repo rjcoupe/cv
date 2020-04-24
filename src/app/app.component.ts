@@ -43,6 +43,7 @@ export class AppComponent {
     'AWS DevOps Engineer (Professional)',
     'AWS Security Specialty',
     'AWS Solutions Architect (Associate)',
+    'AWS Developer (Associate)',
     'AWS Cloud Practitioner',
     'Certified Scrum Master (Scrum Alliance)',
     'Certified Product Owner (Scrum Alliance)',
