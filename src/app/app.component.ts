@@ -12,7 +12,7 @@ export class AppComponent {
     {
       icon: 'fas fa-graduation-cap',
       title: "AWS Certifications",
-      text: "progressing from no certifications to Cloud Practitioner, Solutions Architect Associate, Solutions Architect Professional DevOps Engineer Professional and Security Specialty within a year"
+      text: "progressing from no certifications to 7x AWS-certified, including both Pro and one Specialty certificates, within a year"
     },
     {
       icon: 'fas fa-dice',
@@ -44,6 +44,7 @@ export class AppComponent {
     'AWS Security Specialty',
     'AWS Solutions Architect (Associate)',
     'AWS Developer (Associate)',
+    'AWS SysOps Administrator (Associate)',
     'AWS Cloud Practitioner',
     'Certified Scrum Master (Scrum Alliance)',
     'Certified Product Owner (Scrum Alliance)',
