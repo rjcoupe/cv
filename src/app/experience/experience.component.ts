@@ -19,11 +19,12 @@ export class ExperienceComponent implements OnInit {
       ],
       technologies: [
         'Amazon Web Services (AWS) - a very broad range of the technologies and products therein',
+        'Kubernetes',
         'A wide array of technologies used by clients as part of the solution design and implementation processes'
       ]
     },
     {
-      title: 'Associate Agile Coach',
+      title: 'Agile Coach',
       employer: 'DevOpsGroup',
       location: 'Cardiff',
       dateFrom: 'January 2019',
@@ -36,7 +37,7 @@ export class ExperienceComponent implements OnInit {
       ]
     },
     {
-      title: 'Senior Scrum Master',
+      title: 'Scrum Master',
       employer: 'DevOpsGroup',
       location: 'Cardiff',
       dateFrom: 'July 2018',
