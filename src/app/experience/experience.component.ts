@@ -8,11 +8,23 @@ import { Component, OnInit } from '@angular/core';
 export class ExperienceComponent implements OnInit {
   jobs: any[] = [
     {
+      title: 'Cloud Engineer',
+      employer: 'OneWeb',
+      location: 'Remote',
+      dateFrom: 'October 2020',
+      dateTo: 'Present',
+      bullets: [
+        "Since the company's emergence from Chapter 11 bankruptcy, re-architect the entire AWS estate to make better use of well-architected principles and cloud-native technologies",
+        "Introduced agile working practices to the shared services team",
+        "Acted as the main liaison between the Shared Services team and the Fleet Management Segment within the company"
+      ]
+    },
+    {
       title: 'Cloud Consultant',
       employer: 'DevOpsGroup',
       location: 'Cardiff',
       dateFrom: 'September 2019',
-      dateTo: 'Present',
+      dateTo: 'October 2020',
       bullets: [
         'Responsible, as a qualified AWS Well-Architected Lead, for leading Well-Architected Reviews for over 20 distinct clients in order to determine where best to focus efforts on improvement to their cloud estate',
         'Designed, proposed and implemented solutions for clients requiring an enchancement or original creation of cloud strategy',
