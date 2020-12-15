@@ -12,9 +12,9 @@ export class ExperienceComponent implements OnInit {
       employer: 'OneWeb',
       location: 'Remote',
       dateFrom: 'October 2020',
-      dateTo: 'Present',
+      dateTo: 'December 2020',
       bullets: [
-        "Since the company's emergence from Chapter 11 bankruptcy, re-architect the entire AWS estate to make better use of well-architected principles and cloud-native technologies",
+        "Since the company's emergence from Chapter 11 bankruptcy, worked to re-architect the entire AWS estate to make better use of well-architected principles and cloud-native technologies",
         "Introduced agile working practices to the shared services team",
         "Acted as the main liaison between the Shared Services team and the Fleet Management Segment within the company"
       ]
