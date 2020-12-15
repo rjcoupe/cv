@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
+  ages: any = {};
   email: string = 'rich@rjcoupe.dev';
   phoneNumber: string = '+44 (0) 7460700782'
   sourcesOfPride: any[] = [
@@ -51,4 +52,19 @@ export class AppComponent {
     'BCS Agile Foundation',
     'BCS DevOps 101'
   ]
+
+  constructor() {}
+
+  ngOnInit() {
+    const now: number = Date.now();
+    const birthdays: any = {
+      isaac: new Date(2013, 4, 26).getTime(),
+      holly: new Date(2016, 2, 6).getTime(),
+      harry: new Date(2018, 11, 7).getTime()
+    }
+    Object.keys(birthdays).forEach(name => {
+      const diff = now - birthdays[name];
+      this.ages[name] = Math.floor(diff / 1000 / 86400 / 365);
+    });
+  }
 }
