@@ -5,7 +5,7 @@
   [class.last-for-employer]="!!jobs[i+1] && jobs[i+1].employer !== job.employer">
   <h4 *ngIf="i === 0 || jobs[i-1].employer !== job.employer" [class.most-recent-employer]="i === 0">{{job.employer}}</h4>
   <h3>{{job.title}}</h3>
-  <h5>{{job.dateFrom}} - {{job.dateTo}}</h5>
+  <h5>{{job.dateFrom}} - {{job.dateTo ? job.dateTo : '(Present)'}}</h5>
   <ul>
     <li *ngFor="let bullet of job.bullets">{{bullet}}</li>
   </ul>
