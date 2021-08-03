@@ -18,13 +18,14 @@ interface IJob {
 export class ExperienceComponent implements OnInit {
   jobs: IJob[] = [
     {
-      title: 'Lead DevOps Engineer',
+      title: 'DevOps Lead',
       employer: 'Seccl',
       location: 'Remote/Bath',
       dateFrom: 'December 2020',
       bullets: [
         "Built and lead the DevOps/Cloud team, focusing on both technical excellence and the personal development of engineers",
         "Maximising developer ROI by proactively removing impediments and improving processes around them",
+        "Overhauled ways of working to better reflect work coming into and leaving the team", 
         "Liaising with stakeholders throughout the business on matters concerning cloud and deployment processes"
       ],
       technologies: [
