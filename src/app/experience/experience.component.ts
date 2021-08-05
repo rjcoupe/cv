@@ -29,8 +29,9 @@ export class ExperienceComponent implements OnInit {
         "Liaising with stakeholders throughout the business on matters concerning cloud and deployment processes"
       ],
       technologies: [
-        'AWS Lambda, API Gateway, EC2 & DynamoDB',
+        'AWS Lambda, API Gateway, EC2, Cloudfront & DynamoDB',
         'AWS networking architectures (VPCs - and the routing, subnetting etc. therein) as well as Site to Site VPNs',
+        'AWS security tools including Guard Duty and WAF',
         'Containerisation via Docker, AWS ECS and AWS EKS/Kubernetes',
         'MongoDB',
         'Github & Github Actions',
