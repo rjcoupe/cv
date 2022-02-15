@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href \"https://rjcoupe.dev/\" && git add . && git commit -am \"Built from commit $(git rev-parse --short HEAD)\"",
+    "build": "ng build --configuration production --base-href \"https://rjcoupe.dev/\" && git add . && git commit -am \"Built from commit $(git rev-parse --short HEAD)\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -23,10 +23,10 @@
     "core-js": "^2.6.11",
     "rxjs": "^6.6.2",
     "tslib": "^2.0.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular/cli": "^11.2.18",
+    "@angular/cli": "^12.2.16",
     "@angular/compiler-cli": "^11.2.14",
     "@angular/language-service": "^11.2.14",
     "@types/chartjs": "0.0.31",
