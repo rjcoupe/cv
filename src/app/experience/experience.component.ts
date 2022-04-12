@@ -23,9 +23,14 @@ export class ExperienceComponent implements OnInit {
       location: 'Remote',
       dateFrom: 'September 2021',
       dateTo: 'February 2022',
-      bullets: [
-      ],
       technologies: [
+        "AWS Elastic Kubernetes Service",
+        "Azure DevOps",
+        "Azure Container Registry",
+        "Terraform",
+        "Forgerock"
+      ],
+      bullets: [
         "Lead DevOps/Cloud work on major UK government project",
         "Designed and implemented, from scratch, a continuous integration/deployment pipeline enabling developers to deploy to ephemeral environments through git commits",
         "Worked closely with client teams and leadership"
