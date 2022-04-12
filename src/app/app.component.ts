@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   ages: any = {};
-  email: string = 'rich@rjcoupe.dev';
+  email: string = 'rjcoupe@pm.me';
   phoneNumber: string = '+44 (0) 7460700782'
   sourcesOfPride: any[] = [
     {
