@@ -21,7 +21,8 @@ export class ExperienceComponent implements OnInit {
       title: 'Lead Consultant',
       employer: 'Amido',
       location: 'Remote',
-      dateFrom: 'February 2022'
+      dateFrom: 'February 2022',
+      bullets: []
     },
     {
       title: 'Senior Consultant',
