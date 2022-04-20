@@ -18,6 +18,12 @@ interface IJob {
 export class ExperienceComponent implements OnInit {
   jobs: IJob[] = [
     {
+      title: 'Lead Consultant',
+      employer: 'Amido',
+      location: 'Remote',
+      dateFrom: 'February 2022'
+    },
+    {
       title: 'Senior Consultant',
       employer: 'Amido',
       location: 'Remote',
