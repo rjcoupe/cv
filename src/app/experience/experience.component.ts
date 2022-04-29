@@ -40,7 +40,8 @@ export class ExperienceComponent implements OnInit {
       bullets: [
         "Lead DevOps/Cloud work on major UK government project",
         "Designed and implemented, from scratch, a continuous integration/deployment pipeline enabling developers to deploy to ephemeral environments through git commits",
-        "Worked closely with client teams and leadership"
+        "Worked closely with client teams and leadership",
+        "Line managed more junior engineers"
       ]
     },
     {
