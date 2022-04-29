@@ -22,7 +22,9 @@ export class ExperienceComponent implements OnInit {
       employer: 'Amido',
       location: 'Remote',
       dateFrom: 'February 2022',
-      bullets: []
+      bullets: [
+        "Promoted in recognition of prior performance, continuing with existing duties"
+      ]
     },
     {
       title: 'Senior Consultant',
