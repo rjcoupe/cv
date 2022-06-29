@@ -47,7 +47,7 @@ export class ExperienceComponent implements OnInit {
       ]
     },
     {
-      title: 'Engineering Manager - DevOps',
+      title: 'Engineering Manager/Technical Lead - DevOps',
       employer: 'Seccl',
       location: 'Remote/Bath',
       dateFrom: 'December 2020',
