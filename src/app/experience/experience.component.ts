@@ -19,7 +19,7 @@ export class ExperienceComponent implements OnInit {
   jobs: IJob[] = [
     {
       title: 'Lead Consultant',
-      employer: 'Amido',
+      employer: 'Ensono Digital',
       location: 'Remote',
       dateFrom: 'February 2022',
       bullets: [
@@ -28,7 +28,7 @@ export class ExperienceComponent implements OnInit {
     },
     {
       title: 'Senior Consultant',
-      employer: 'Amido',
+      employer: 'Ensono Digital',
       location: 'Remote',
       dateFrom: 'September 2021',
       dateTo: 'February 2022',
