@@ -18,10 +18,23 @@ interface IJob {
 export class ExperienceComponent implements OnInit {
   jobs: IJob[] = [
     {
+      title: 'Engineering Manager',
+      employer: 'Vidsy',
+      location: 'Remote',
+      dateFrom: 'October 2022',
+      bullets: [
+        "Joined and lead development team in state of flux, overseeing recruitment for multiple roles",
+        "Introduced agile ways of working, coaching engineers through principles and processes involved",
+        "Lead team responsible for developer enablement and cloud infrastructure",
+        "Line managed over 10 engineers, forming strong bonds and working with each on their personal growth and development"
+      ]
+    },
+    {
       title: 'Lead Consultant',
       employer: 'Ensono Digital',
       location: 'Remote',
       dateFrom: 'February 2022',
+      dateTo: 'October 2022',
       bullets: [
         "Promoted in recognition of prior performance, continuing with existing duties"
       ]
