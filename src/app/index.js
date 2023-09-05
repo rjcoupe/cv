@@ -5,14 +5,10 @@ import styles from './styles.module.scss'
 function App() {
   return (
     <div className={styles.container}>
-      <div>
         <div><h1>About</h1></div>
-        <div><h1>Experience</h1></div>
-      </div>
-      <div>
         <Profile />
+        <div><h1>Experience</h1></div>
         <Experience />
-      </div>
     </div>
   );
 }
