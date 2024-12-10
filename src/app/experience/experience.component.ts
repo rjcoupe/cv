@@ -18,10 +18,23 @@ interface IJob {
 export class ExperienceComponent implements OnInit {
   jobs: IJob[] = [
     {
+      title: 'Head of Engineering Enablement',
+      employer: 'Vidsy',
+      location: 'Remote',
+      dateFrom: 'September 2023',
+      bullets: [
+        "Took over the Cloud, infrastructure and devops function within the company full time in response to growing demand",
+        "Oversaw rearchitecture of CI/CD pipelines, with a specific view to opening the processes to other engineers and ensuring their ability to critique and contribute",
+        "Lead the full reworking of infrastructure-as-code (Terraform) to allow for vastly more flexible environment management, specifically to enable both on-demand test as disaster-recovery capabilities",
+        "Drove cost-saving initiatives across cloud infrastructure, establishing policies and audit capabilities to better control cloud spend"
+      ]
+    },
+    {
       title: 'Engineering Manager',
       employer: 'Vidsy',
       location: 'Remote',
       dateFrom: 'October 2022',
+      dateTo: 'September 2023',
       bullets: [
         "Joined and lead development team in state of flux, overseeing recruitment for multiple roles",
         "Introduced agile ways of working, coaching engineers through principles and processes involved",
