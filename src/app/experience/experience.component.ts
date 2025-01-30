@@ -26,6 +26,7 @@ export class ExperienceComponent implements OnInit {
         "Took over the Cloud, infrastructure and devops function within the company full time in response to growing demand",
         "Oversaw rearchitecture of CI/CD pipelines, with a specific view to opening the processes to other engineers and ensuring their ability to critique and contribute",
         "Lead the full reworking of infrastructure-as-code (Terraform) to allow for vastly more flexible environment management, specifically to enable both on-demand test as disaster-recovery capabilities",
+	"Lead penetration testing engagement, liaising with partner testing company, triaging surfaced vulnerabilities and coordinating remediation work with engineers",
         "Drove cost-saving initiatives across cloud infrastructure, establishing policies and audit capabilities to better control cloud spend"
       ]
     },
