@@ -49,11 +49,11 @@ export class CertificationsComponent implements OnInit {
       },
       {
         title: 'Offsec Kali Linux Certified Professional',
-        badge: 'assets/badges/OFFSEC_KLCP.png'
+        badge: 'assets/badges/OFFSEC_KLCP.svg'
       },
       {
         title: 'Offsec Wireless Professional',
-        badge: 'assets/badges/OFFSEC_OSWP.png'
+        badge: 'assets/badges/OFFSEC_OSWP.svg'
       }
     ]
   }
