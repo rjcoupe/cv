@@ -40,6 +40,8 @@ export class AppComponent implements OnInit {
   ];
 
   certs: string[] = [
+    'Offsec Wireless Professional',
+    'Offsec Kali Linux Certified Professional',
     'AWS Solutions Architect (Professional)',
     'AWS DevOps Engineer (Professional)',
     'AWS Security Specialty',

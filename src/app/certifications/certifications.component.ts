@@ -46,6 +46,14 @@ export class CertificationsComponent implements OnInit {
       {
         title: 'Scrum Alliance Certified Product Owner',
         badge: 'assets/badges/SA_CSPO.png'
+      },
+      {
+        title: 'Offsec Kali Linux Certified Professional',
+        badge: 'assets/badges/OFFSEC_KLCP.png'
+      },
+      {
+        title: 'Offsec Wireless Professional',
+        badge: 'assets/badges/OFFSEC_OSWP.png'
       }
     ]
   }
